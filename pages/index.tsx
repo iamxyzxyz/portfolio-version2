@@ -208,7 +208,7 @@ class Home extends React.Component<{}> {
             <div className='w-full md:w-[60%] h-full text-white font-medium flex justify-center items-center'>
               <div>
                 <div className='text-32 md:text-45 py-8 text-center md:text-left'>
-                  PiDong Xu
+                  Jin Wang
                   {/* 丕东 许 */}
                 </div>
                 <div className='text-lg md:text-36 pb-8 text-center md:text-left'>10+ Years of hands-on experience<br/>in software development</div>
