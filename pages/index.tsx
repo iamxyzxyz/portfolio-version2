@@ -207,11 +207,12 @@ class Home extends React.Component<{}> {
           <div className='w-full h-[100vh] '>
             <div className='w-full md:w-[60%] h-full text-white font-medium flex justify-center items-center'>
               <div>
-                <div className='text-32 md:text-45 py-8 text-center md:text-left'>
-                  Jin Wang
-                  {/* 丕东 许 */}
+                <div className='flex items-end'>
+                <div className='text-lg md:text-36 pb-8 text-center md:text-left'>Hi, I'm&nbsp;&nbsp;&nbsp;</div>
+                <div className='text-36 md:text-60 pb-8 text-center md:text-left'>Jin Wang</div>
                 </div>
-                <div className='text-lg md:text-36 pb-8 text-center md:text-left'>10+ Years of hands-on experience<br/>in software development</div>
+                <div className='text-lg md:text-36 pb-8 text-center md:text-left'>Full Stack Developer</div>
+                <div className='text-lg md:text-36 pb-8 text-center md:text-left'>from CANADA</div>
                 <div className='text-36 p-8 text-center'>
                   <Link href={'/contact'}>
                     <a className='text-lg md:text-32 hover:text-cyan-500 border-4 border-white hover:border-cyan-500 px-4 py-1'>
